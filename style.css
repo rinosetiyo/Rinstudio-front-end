@@ -36,3 +36,9 @@ html {
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .image-background {
+    display: none;
+  }
+}
