@@ -5,71 +5,74 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rinstudio</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Untitled UI</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Pricing</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <a href="login.html" class="btn btn-outline-dark me-2">Login</a>
-          <a href="#" class="btn btn-dark" type="submit">Sign Up</a>
-        </form>
+  <div class="container-fluid py-2 gradient">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Untitled UI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <a href="login.html" class="btn btn-outline-light me-2">Login</a>
+            <a href="#" class="btn btn-light" type="submit">Sign Up</a>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
   <!-- end navbar -->
   <div class="container my-4">
-    <div class="row g-4">
+    <div class="row justify-content-center g-4">
       <h5 class="text-center mt-4">The Blog Sites</h5>
       <h1 class="text-center fw-bold mb-4">Writing from our teams</h1>
-      <div class="trending">
-        <h3 class="fw-bold text-danger mb-4">Trending Now</h3>
-        <div class="position-relative">
-          <img src="images/image1.jpg" alt="" class="img-fluid">
-          <div class="position-absolute bottom-0 start-0 ms-5 mb-5">
-            <small class="text-white">Rino setiyo | 23 august 2023</small>
-            <h2 class="text-white">UI experience review</h2>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aut quisquam quam
-              voluptatibus impedit dolor.</p>
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white border border-white rounded-pill ms-0">Design</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white border border-white rounded-pill mx-2">Research</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white border border-white rounded-pill mx-2">Presentation</a>
-              </li>
-            </ul>
+      <div class="col">
+        <div class="trending">
+          <h3 class="fw-bold text-danger mb-4">Trending Now</h3>
+          <div class="position-relative">
+            <img src="images/image1.jpg" alt="" class="img-fluid">
+            <div class="position-absolute bottom-0 start-0 ms-5 mb-5">
+              <small class="text-white">Rino setiyo | 23 august 2023</small>
+              <h2 class="text-white">UI experience review</h2>
+              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aut quisquam quam
+                voluptatibus impedit dolor.</p>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white border border-white rounded-pill ms-0">Design</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white border border-white rounded-pill mx-2">Research</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white border border-white rounded-pill mx-2">Presentation</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col"></div>
     </div>
   </div>
 
