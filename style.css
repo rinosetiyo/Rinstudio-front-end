@@ -11,26 +11,6 @@ html {
   background-image: linear-gradient(to right, #d71cfd, #006eff);
 }
 
-.line::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  background-color: black;
-}
-
-.line::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 2px;
-  width: 100%;
-  background-color: black;
-}
-
 @media (max-width: 576px) {
   .trending {
     display: none;
